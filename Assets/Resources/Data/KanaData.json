@@ -1,0 +1,1055 @@
+{
+  "kana": [
+    {
+      "Symbol": "あ",
+      "Romaji": "a",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "い",
+      "Romaji": "i",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "う",
+      "Romaji": "u",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "え",
+      "Romaji": "e",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "お",
+      "Romaji": "o",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "か",
+      "Romaji": "ka",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "き",
+      "Romaji": "ki",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "く",
+      "Romaji": "ku",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "け",
+      "Romaji": "ke",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "こ",
+      "Romaji": "ko",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "さ",
+      "Romaji": "sa",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "し",
+      "Romaji": "shi",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "す",
+      "Romaji": "su",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "せ",
+      "Romaji": "se",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "そ",
+      "Romaji": "so",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "た",
+      "Romaji": "ta",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ち",
+      "Romaji": "chi",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "つ",
+      "Romaji": "tsu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "て",
+      "Romaji": "te",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "と",
+      "Romaji": "to",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "な",
+      "Romaji": "na",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "に",
+      "Romaji": "ni",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぬ",
+      "Romaji": "nu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ね",
+      "Romaji": "ne",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "の",
+      "Romaji": "no",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "は",
+      "Romaji": "ha",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ひ",
+      "Romaji": "hi",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ふ",
+      "Romaji": "fu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "へ",
+      "Romaji": "he",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ほ",
+      "Romaji": "ho",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ま",
+      "Romaji": "ma",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "み",
+      "Romaji": "mi",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "む",
+      "Romaji": "mu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "め",
+      "Romaji": "me",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "も",
+      "Romaji": "mo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "や",
+      "Romaji": "ya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ゆ",
+      "Romaji": "yu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "よ",
+      "Romaji": "yo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ら",
+      "Romaji": "ra",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "り",
+      "Romaji": "ri",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "る",
+      "Romaji": "ru",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "れ",
+      "Romaji": "re",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ろ",
+      "Romaji": "ro",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "わ",
+      "Romaji": "wa",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "を",
+      "Romaji": "wo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ん",
+      "Romaji": "n",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "が",
+      "Romaji": "ga",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぎ",
+      "Romaji": "gi",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぐ",
+      "Romaji": "gu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "げ",
+      "Romaji": "ge",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ご",
+      "Romaji": "go",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ざ",
+      "Romaji": "za",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "じ",
+      "Romaji": "ji",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ず",
+      "Romaji": "zu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぜ",
+      "Romaji": "ze",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぞ",
+      "Romaji": "zo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "だ",
+      "Romaji": "da",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぢ",
+      "Romaji": "ji",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "づ",
+      "Romaji": "du",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "で",
+      "Romaji": "de",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ど",
+      "Romaji": "do",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ば",
+      "Romaji": "ba",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "び",
+      "Romaji": "bi",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぶ",
+      "Romaji": "bu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "べ",
+      "Romaji": "be",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぼ",
+      "Romaji": "bo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぱ",
+      "Romaji": "pa",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぴ",
+      "Romaji": "pi",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぷ",
+      "Romaji": "pu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぺ",
+      "Romaji": "pe",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぽ",
+      "Romaji": "po",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "きゃ",
+      "Romaji": "kya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "きゅ",
+      "Romaji": "kyu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "きょ",
+      "Romaji": "kyo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "しゃ",
+      "Romaji": "sha",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "しゅ",
+      "Romaji": "shu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "しょ",
+      "Romaji": "sho",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ちゃ",
+      "Romaji": "cha",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ちゅ",
+      "Romaji": "chu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ちょ",
+      "Romaji": "cho",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "にゃ",
+      "Romaji": "nya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "にゅ",
+      "Romaji": "nyu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "にょ",
+      "Romaji": "nyo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ひゃ",
+      "Romaji": "hya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ひゅ",
+      "Romaji": "hyu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ひょ",
+      "Romaji": "hyo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "みゃ",
+      "Romaji": "mya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "みゅ",
+      "Romaji": "myu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "みょ",
+      "Romaji": "myo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "りゃ",
+      "Romaji": "rya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "りゅ",
+      "Romaji": "ryu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "りょ",
+      "Romaji": "ryo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぎゃ",
+      "Romaji": "gya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぎゅ",
+      "Romaji": "gyu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぎょ",
+      "Romaji": "gyo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "じゃ",
+      "Romaji": "ja",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "じゅ",
+      "Romaji": "ju",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "じょ",
+      "Romaji": "jo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "びゃ",
+      "Romaji": "bya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "びゅ",
+      "Romaji": "byu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "びょ",
+      "Romaji": "byo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぴゃ",
+      "Romaji": "pya",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぴゅ",
+      "Romaji": "pyu",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ぴょ",
+      "Romaji": "pyo",
+      "Type": "Hiragana"
+    },
+    {
+      "Symbol": "ア",
+      "Romaji": "a",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "イ",
+      "Romaji": "i",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ウ",
+      "Romaji": "u",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "エ",
+      "Romaji": "e",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "オ",
+      "Romaji": "o",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "カ",
+      "Romaji": "ka",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "キ",
+      "Romaji": "ki",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ク",
+      "Romaji": "ku",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ケ",
+      "Romaji": "ke",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "コ",
+      "Romaji": "ko",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "サ",
+      "Romaji": "sa",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "シ",
+      "Romaji": "shi",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ス",
+      "Romaji": "su",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "セ",
+      "Romaji": "se",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ソ",
+      "Romaji": "so",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "タ",
+      "Romaji": "ta",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "チ",
+      "Romaji": "chi",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ツ",
+      "Romaji": "tsu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "テ",
+      "Romaji": "te",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ト",
+      "Romaji": "to",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ナ",
+      "Romaji": "na",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ニ",
+      "Romaji": "ni",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヌ",
+      "Romaji": "nu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ネ",
+      "Romaji": "ne",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ノ",
+      "Romaji": "no",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ハ",
+      "Romaji": "ha",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヒ",
+      "Romaji": "hi",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "フ",
+      "Romaji": "fu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヘ",
+      "Romaji": "he",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ホ",
+      "Romaji": "ho",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "マ",
+      "Romaji": "ma",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ミ",
+      "Romaji": "mi",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ム",
+      "Romaji": "mu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "メ",
+      "Romaji": "me",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "モ",
+      "Romaji": "mo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヤ",
+      "Romaji": "ya",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ユ",
+      "Romaji": "yu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヨ",
+      "Romaji": "yo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ラ",
+      "Romaji": "ra",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "リ",
+      "Romaji": "ri",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ル",
+      "Romaji": "ru",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "レ",
+      "Romaji": "re",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ロ",
+      "Romaji": "ro",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ワ",
+      "Romaji": "wa",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヲ",
+      "Romaji": "wo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ン",
+      "Romaji": "n",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ガ",
+      "Romaji": "ga",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ギ",
+      "Romaji": "gi",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "グ",
+      "Romaji": "gu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ゲ",
+      "Romaji": "ge",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ゴ",
+      "Romaji": "go",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ザ",
+      "Romaji": "za",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ジ",
+      "Romaji": "ji",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ズ",
+      "Romaji": "zu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ゼ",
+      "Romaji": "ze",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ゾ",
+      "Romaji": "zo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ダ",
+      "Romaji": "da",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヂ",
+      "Romaji": "ji",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヅ",
+      "Romaji": "zu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "デ",
+      "Romaji": "de",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ド",
+      "Romaji": "do",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "バ",
+      "Romaji": "ba",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ビ",
+      "Romaji": "bi",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ブ",
+      "Romaji": "bu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ベ",
+      "Romaji": "be",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ボ",
+      "Romaji": "bo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "パ",
+      "Romaji": "pa",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ピ",
+      "Romaji": "pi",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "プ",
+      "Romaji": "pu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ペ",
+      "Romaji": "pe",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ポ",
+      "Romaji": "po",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "キャ",
+      "Romaji": "kya",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "キュ",
+      "Romaji": "kyu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "キョ",
+      "Romaji": "kyo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "シャ",
+      "Romaji": "sha",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "シュ",
+      "Romaji": "shu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ショ",
+      "Romaji": "sho",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "チャ",
+      "Romaji": "cha",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "チュ",
+      "Romaji": "chu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "チョ",
+      "Romaji": "cho",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ニャ",
+      "Romaji": "nya",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ニュ",
+      "Romaji": "nyu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ニョ",
+      "Romaji": "nyo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヒャ",
+      "Romaji": "hya",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヒュ",
+      "Romaji": "hyu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ヒョ",
+      "Romaji": "hyo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ミャ",
+      "Romaji": "mya",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ミュ",
+      "Romaji": "myu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ミョ",
+      "Romaji": "myo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "リャ",
+      "Romaji": "rya",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "リュ",
+      "Romaji": "ryu",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "リョ",
+      "Romaji": "ryo",
+      "Type": "Katakana"
+    },
+    {
+      "Symbol": "ギャ",
+      "Romaji": "gya",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ギュ",
+      "Romaji": "gyu",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ギョ",
+      "Romaji": "gyo",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ジャ",
+      "Romaji": "ja",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ジュ",
+      "Romaji": "ju",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ジョ",
+      "Romaji": "jo",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ビャ",
+      "Romaji": "bya",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ビュ",
+      "Romaji": "byu",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ビョ",
+      "Romaji": "byo",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ピャ",
+      "Romaji": "pya",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ピュ",
+      "Romaji": "pyu",
+      "Type": "Katakana"
+    },
+
+    {
+      "Symbol": "ピョ",
+      "Romaji": "pyo",
+      "Type": "Katakana"
+    }
+  ]
+}
