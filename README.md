@@ -13,9 +13,9 @@
 
 ## Files and Directories
 
-- **C++ Database**:
+- **C Database Handling**:
   - `main.cpp` - The source code for the Kana database.
-  - `KanaDB.exe` - Executable file for managing Kana data.
+  - `KanaDB.exe` - Executable file for managing Kana data (Only Acceps Command Line Arguments).
   
 - **Game Executable**:
   - `Game64/` - Folder containing the game executable.
