@@ -84,21 +84,21 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Attempting to spawn Kana...");
 
-        Kana randomKana = kanaManager.GetRandomKana();
+        Kana randomKana = kanaManager.GetRandomKana(); // Get a random Kana from the list
 
 
-        Vector3 spawnPosition = GetRandomSpawnPosition();
+        Vector3 spawnPosition = GetRandomSpawnPosition(); // Get a random spawn position
 
 
 
-        GameObject kanaGO = Instantiate(kanaPrefab, spawnPosition, Quaternion.identity);
+        GameObject kanaGO = Instantiate(kanaPrefab, spawnPosition, Quaternion.identity); // Spawn the Kana
 
 
-        KanaBehavior kanaBehavior = kanaGO.GetComponent<KanaBehavior>();
-        KanaMove kanaMove = kanaGO.GetComponent<KanaMove>();
+        KanaBehavior kanaBehavior = kanaGO.GetComponent<KanaBehavior>(); // Get the KanaBehavior component
+        KanaMove kanaMove = kanaGO.GetComponent<KanaMove>(); // Get the KanaMove component
 
-        kanaMove.fallSpeed = fallSpeed;
-        kanaBehavior.Initialize(randomKana);
+        kanaMove.fallSpeed = fallSpeed; // Set the fall speed of the Kana
+        kanaBehavior.Initialize(randomKana); // Initialize the Kana with the random Kana data
     }
 
     private Vector3 GetRandomSpawnPosition()
@@ -139,11 +139,11 @@ public class GameManager : MonoBehaviour
         // Update each heart image based on the current hearts
         for (int i = 0; i < heartsContainer.childCount; i++)
         {
-            RawImage heartImage = heartsContainer.GetChild(i).GetComponent<RawImage>();
+            RawImage heartImage = heartsContainer.GetChild(i).GetComponent<RawImage>(); // Get the RawImage component of the heart
             if (heartImage != null)
             {
                 // Show full hearts from 0 to currentHearts-1, empty hearts otherwise
-                heartImage.texture = (i < currentHearts) ? fullHeartTexture : emptyHeartTexture;
+                heartImage.texture = (i < currentHearts) ? fullHeartTexture : emptyHeartTexture; // Set the texture based on the current hearts
             }
         }
 
@@ -201,3 +201,5 @@ public class GameManager : MonoBehaviour
 
 
 }
+
+// Purpose - Manages the game state, spawning Kana, handling player health, score, and game over conditions.

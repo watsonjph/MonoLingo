@@ -33,7 +33,7 @@ public class LoadUserMastery : MonoBehaviour
 
                     // Add safety checks for NULL or invalid date values
                     System.DateTime? lastReviewed = null;
-                    if (!string.IsNullOrEmpty(parts[6]) && parts[6] != "None")
+                    if (!string.IsNullOrEmpty(parts[6]) && parts[6] != "None") // Check if the last review date is not empty or None
                     {
                         if (System.DateTime.TryParse(parts[6], out var parsedLastReviewed))
                         {
@@ -91,3 +91,5 @@ public class LoadUserMastery : MonoBehaviour
         public System.DateTime? NextReview;
     }
 }
+
+// Script Purpose - Load user mastery data from the database and store it in a list of UserMastery objects. The UserMastery class represents the data structure for each entry in the user's mastery list, including the kana ID, symbol, romaji, type, mastery level, last reviewed date, and next review date.

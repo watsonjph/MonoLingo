@@ -24,3 +24,6 @@ public class KanaBehavior : MonoBehaviour
         return kanaData.Romaji;
     }
 }
+
+// Script Purpose: This script is responsible for managing the behavior of individual Kana characters in the game.
+// It initializes the Kana character with its data and provides a method to retrieve the Romaji representation of the character. The KanaBehavior script is attached to each Kana GameObject in the game scene.

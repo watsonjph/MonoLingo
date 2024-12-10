@@ -62,4 +62,6 @@ public class KanaManager : MonoBehaviour
     }
 }
 
+
+// Script Purpose: This script is responsible for managing the list of Kana characters in the game. It loads the Kana data from a JSON file and provides methods to retrieve random Kana characters from the list.
 // Not removing logging for now, really useful for debugging in Unity in the 2nd Scene;

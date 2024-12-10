@@ -32,9 +32,9 @@ public class SRSMode : MonoBehaviour
         var loadUserMastery = FindObjectOfType<LoadUserMastery>();
 
 
-        userMasteryList = loadUserMastery.userMasteryList;
+        userMasteryList = loadUserMastery.userMasteryList; // Get the user mastery list
 
-        if (userMasteryList == null || userMasteryList.Count == 0)
+        if (userMasteryList == null || userMasteryList.Count == 0) // Check if the list is empty
         {
             Debug.LogError("No UserMastery data available to review!");
             ShowExitMenu();
@@ -167,7 +167,7 @@ public class SRSMode : MonoBehaviour
         }
 
         kana.LastReviewed = System.DateTime.Now;
-        kana.NextReview = System.DateTime.Now.AddDays(GetNextReviewInterval(kana.MasteryLevel));
+        kana.NextReview = System.DateTime.Now.AddDays(GetNextReviewInterval(kana.MasteryLevel)); // Update next review date based on mastery level
 
         // Update the database
         CDatabaseConnector.RunProcess($"updateUserMastery {PlayerPrefs.GetInt("LoggedInUserId", 1)} {kana.KanaID} {kana.MasteryLevel} {kana.LastReviewed.Value:yyyy-MM-dd} {kana.NextReview.Value:yyyy-MM-dd}");
@@ -207,3 +207,7 @@ public class SRSMode : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 }
+
+// Script Purpose: This script is responsible for managing the Spaced Repetition System (SRS) mode of the game, it is the one that handles the review of Kana characters based on the user's mastery level and the SRS algorithm.
+// The script displays the Kana symbol and type, allows the user to input their guess for the Romaji representation of the Kana, and provides feedback on the correctness of the answer. It also updates the user's mastery level and review schedule based on their performance.
+// The script includes functionality for pausing the game, showing the game over panel, and returning to the main menu. The SRSMode script is attached to the SRSMode scene in the game.

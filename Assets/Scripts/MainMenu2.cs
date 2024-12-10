@@ -139,7 +139,9 @@ public class MainMenu2 : MonoBehaviour
 
     private void UpdatePracticeInfoUI(string lastPracticeDate, int dayStreak)
     {
-        string displayDate = string.IsNullOrEmpty(lastPracticeDate) || lastPracticeDate == "None" ? "None" : lastPracticeDate;
+        string displayDate = string.IsNullOrEmpty(lastPracticeDate) || lastPracticeDate == "None" ? "None" : lastPracticeDate; // Display "None" if no date is available
         practiceInfoText.text = $"Last Practice: {displayDate}\nStreak: {dayStreak} days";
     }
 }
+
+// Purpose: To manage the main menu UI and user interactions such as starting the game or SRS mode.

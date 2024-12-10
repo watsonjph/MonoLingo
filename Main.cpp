@@ -14,16 +14,16 @@
 #pragma warning(disable : 4996)
 
 
-MYSQL* connectDatabase() {
+MYSQL* connectDatabase() { // Purpose - Connect to the database (Returns a pointer to the connection)
     MYSQL* conn = mysql_init(NULL);
-    if (!mysql_real_connect(conn, SERVER, USER, PASSWORD, DATABASE, 0, NULL, 0)) {
+    if (!mysql_real_connect(conn, SERVER, USER, PASSWORD, DATABASE, 0, NULL, 0)) { 
         //fprintf(stderr, "Connection failed: %s\n", mysql_error(conn));
         exit(1);
     }
     return conn;
 }
 
-void createUser(MYSQL* conn, const char* username, const char* password) {
+void createUser(MYSQL* conn, const char* username, const char* password) { // Purpose - Create a new user
     char query[256];
     snprintf(query, sizeof(query),
         "INSERT INTO Users (Username, PasswordHash) VALUES ('%s', '%s')",
@@ -43,7 +43,7 @@ void createUser(MYSQL* conn, const char* username, const char* password) {
         "INSERT INTO UserMastery (UserID, KanaID, MasteryLevel) "
         "SELECT %d, KanaID, 0 FROM KanaCharacter", userId);
 
-    if (mysql_query(conn, insertMasteryQuery)) {
+	if (mysql_query(conn, insertMasteryQuery)) { // Execute query
         printf("failure\n");
         return;
     }
@@ -52,7 +52,7 @@ void createUser(MYSQL* conn, const char* username, const char* password) {
 }
 
 // Login a user
-void loginUser(MYSQL* conn, const char* username, const char* password) {
+void loginUser(MYSQL* conn, const char* username, const char* password) { // Purpose - Login a user 
     char query[256];
     snprintf(query, sizeof(query),
 		"SELECT Username, COALESCE(DayStreak, '0') AS DayStreak, COALESCE(LastPracticeDate, 'NULL') AS LastPracticeDate " // COALESCE to handle NULL values
@@ -72,21 +72,21 @@ void loginUser(MYSQL* conn, const char* username, const char* password) {
     MYSQL_ROW row;
     if ((row = mysql_fetch_row(res)) != NULL) {
         // Check for missing values and default them
-        const char* dayStreak = row[1] ? row[1] : "0";
-        const char* lastPracticeDate = row[2] ? row[2] : "NULL";
-
+		const char* dayStreak = row[1] ? row[1] : "0"; // Default to 0 if NULL
+		const char* lastPracticeDate = row[2] ? row[2] : "NULL"; // Default to NULL if NULL
+         
         // Output result in expected format
         printf("success|%s|%s\n", dayStreak, lastPracticeDate);
     }
     else {
-        printf("failure\n");
+		printf("failure\n"); // Print failure for Unity to detect
     }
 
     mysql_free_result(res);
 }
 
 // Get Last Practice Date and Day Streak
-void getPracticeInfo(MYSQL* conn, const char* username) {
+void getPracticeInfo(MYSQL* conn, const char* username) { // Purpose - Get the last practice date and day streak of a user
     char query[256];
     snprintf(query, sizeof(query), "SELECT COALESCE(LastPracticeDate, 'None'), COALESCE(DayStreak, 0) FROM Users WHERE Username = '%s'", username);
 
@@ -101,11 +101,11 @@ void getPracticeInfo(MYSQL* conn, const char* username) {
         return;
     }
 
-    MYSQL_ROW row = mysql_fetch_row(res);
+	MYSQL_ROW row = mysql_fetch_row(res); // Fetch row
     if (row != NULL) {
-        const char* lastPracticeDate = row[0] ? row[0] : "None";
-        const char* dayStreak = row[1] ? row[1] : "0";
-        printf("success;%s;%s\n", lastPracticeDate, dayStreak);
+		const char* lastPracticeDate = row[0] ? row[0] : "None"; // Default to None if NULL
+		const char* dayStreak = row[1] ? row[1] : "0"; // Default to 0 if NULL
+		printf("success;%s;%s\n", lastPracticeDate, dayStreak); // Output result in expected format
     }
     else {
         printf("failure\n");
@@ -115,7 +115,7 @@ void getPracticeInfo(MYSQL* conn, const char* username) {
 }
 
 // Update Last Practice Date and Day Streak
-void updatePracticeInfo(MYSQL* conn, const char* username, const char* lastPracticeDate, int dayStreak) {
+void updatePracticeInfo(MYSQL* conn, const char* username, const char* lastPracticeDate, int dayStreak) { // Purpose - Update the last practice date and day streak of a user
     char query[256];
     snprintf(query, sizeof(query),
         "UPDATE Users SET LastPracticeDate = '%s', DayStreak = %d WHERE Username = '%s'", lastPracticeDate, dayStreak, username);
@@ -131,14 +131,14 @@ void updatePracticeInfo(MYSQL* conn, const char* username, const char* lastPract
 void getUserMastery(MYSQL* conn, int userId) {
     char query[512]; // Increased buffer size to prevent truncation
     snprintf(query, sizeof(query),
-        "SELECT UserMastery.KanaID, KanaCharacter.KanaSymbol, KanaCharacter.Romaji, KanaCharacter.Type, "
+        "SELECT UserMastery.KanaID, KanaCharacter.KanaSymbol, KanaCharacter.Romaji, KanaCharacter.Type, " 
         "UserMastery.MasteryLevel, UserMastery.LastReviewed, UserMastery.NextReview "
         "FROM UserMastery "
         "JOIN KanaCharacter ON UserMastery.KanaID = KanaCharacter.KanaID "
         "WHERE UserMastery.UserID = %d AND (UserMastery.NextReview IS NULL OR UserMastery.NextReview <= CURDATE())", userId);
 
 
-    if (mysql_query(conn, query)) {
+    if (mysql_query(conn, query)) { 
         printf("failure\n");
         return;
     }
@@ -149,16 +149,16 @@ void getUserMastery(MYSQL* conn, int userId) {
         return;
     }
 
-    MYSQL_ROW row;
+    MYSQL_ROW row; 
     while ((row = mysql_fetch_row(res)) != NULL) {
         printf("success|%s|%s|%s|%s|%s|%s|%s\n",
-            row[0], row[1], row[2], row[3], row[4], row[5] ? row[5] : "None", row[6] ? row[6] : "None");
+			row[0], row[1], row[2], row[3], row[4], row[5] ? row[5] : "None", row[6] ? row[6] : "None"); // Output result in expected format
     }
 
     mysql_free_result(res);
 }
 
-void updateUserMastery(MYSQL* conn, int userId, int kanaId, float masteryLevel, const char* lastReviewed, const char* nextReview) {
+void updateUserMastery(MYSQL* conn, int userId, int kanaId, float masteryLevel, const char* lastReviewed, const char* nextReview) { // Purpose - Update the mastery level of a user for a specific Kana
     char query[512];
     snprintf(query, sizeof(query),
         "UPDATE UserMastery SET MasteryLevel = %.2f, LastReviewed = '%s', NextReview = '%s' "
@@ -172,7 +172,7 @@ void updateUserMastery(MYSQL* conn, int userId, int kanaId, float masteryLevel, 
     }
 }
 
-void getHighScore(MYSQL* conn, const char* username) {
+void getHighScore(MYSQL* conn, const char* username) { // Purpose - Get the high score of a user
     char query[256];
     snprintf(query, sizeof(query),
         "SELECT HighScore FROM Users WHERE Username = '%s'", username);
@@ -182,7 +182,7 @@ void getHighScore(MYSQL* conn, const char* username) {
         return;
     }
 
-    MYSQL_RES* res = mysql_store_result(conn);
+    MYSQL_RES* res = mysql_store_result(conn); 
     if (res == NULL) {
         printf("failure\n");
         return;
@@ -199,7 +199,7 @@ void getHighScore(MYSQL* conn, const char* username) {
     mysql_free_result(res);
 }
 
-void updateHighScore(MYSQL* conn, const char* username, int highScore) {
+void updateHighScore(MYSQL* conn, const char* username, int highScore) { // Purpose - Update the high score of a user
     char query[256];
     snprintf(query, sizeof(query),
         "UPDATE Users SET HighScore = %d WHERE Username = '%s'",

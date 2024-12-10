@@ -93,3 +93,4 @@ public class MainMenu : MonoBehaviour
         Application.Quit(); // Quit the game
     }
 }
+// Purpose: To manage the main menu UI and user interactions on the login screen. This script handles user login, user creation, and error messages.

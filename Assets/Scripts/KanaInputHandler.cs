@@ -34,3 +34,5 @@ public class KanaInputHandler : MonoBehaviour
         inputField.ActivateInputField();
     }
 }
+// Script Purpose - This script is responsible for handling user input for Kana characters in the game.
+// It checks the user's input against the Romaji representation of active Kana characters in the scene. If a match is found, the corresponding Kana is destroyed, and the player's score is increased. The script is attached to an input field in the game scene.
