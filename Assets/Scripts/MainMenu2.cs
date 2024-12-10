@@ -90,6 +90,36 @@ public class MainMenu2 : MonoBehaviour
 
     public void PlaySRS()
     {
+        // Update the streak
+        todayDate = System.DateTime.Now.ToString("yyyy-MM-dd");
+
+        // Fetch current streak info
+        var practiceInfo = CDatabaseConnector.GetPracticeInfo(loggedInUsername);
+        string lastPracticeDate = practiceInfo.lastPracticeDate;
+        int dayStreak = practiceInfo.dayStreak;
+
+        // Calculate and update streak
+        if (!string.IsNullOrEmpty(lastPracticeDate) && lastPracticeDate != "None")
+        {
+            System.DateTime lastDate = System.DateTime.Parse(lastPracticeDate).Date;
+            System.DateTime currentDate = System.DateTime.Now.Date;
+
+            int daysDifference = (currentDate - lastDate).Days;
+
+            if (daysDifference == 1)
+            {
+                dayStreak += 1; // Continue streak
+            }
+            else if (daysDifference > 1)
+            {
+                dayStreak = 1; // Reset streak
+            }
+        }
+        else
+        {
+            dayStreak = 1; // First practice or no previous date
+        }
+
         // Validate the number of cards to review
         if (int.TryParse(cardsToReviewInput.text, out int cardsToReview) && cardsToReview > 0)
         {
